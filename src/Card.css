@@ -1,0 +1,33 @@
+﻿.card {
+    width: 30%;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+    height: 150px;
+    background-color: #666;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 16px;
+}
+
+.card-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}

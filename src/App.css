@@ -1,0 +1,41 @@
+/* 카드 섹션 배경 스타일 */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #f3f8ff, #eaf1ff); /* 그라데이션 배경 */
+}
+
+/* 카드 섹션 디자인 */
+.card {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* 카드 그림자 효과 */
+    border-radius: 16px; /* 모서리 둥글게 */
+    transition: all 0.3s ease-in-out;
+    display: flex; /* 플렉스 박스 */
+    flex-direction: column;
+    justify-content: space-between; /* 상단과 하단 여백 균일 */
+    height: 100%; /* 높이 균일 유지 */
+}
+
+/* 카드 호버 효과 */
+.card:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* 버튼 스타일 */
+.button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    text-transform: none;
+    background: linear-gradient(135deg, #4f6dff, #3742fa); /* 버튼 그라데이션 */
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 버튼 호버 효과 */
+.button:hover {
+    background: linear-gradient(135deg, #6c82ff, #4f6dff);
+}
